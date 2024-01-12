@@ -1,5 +1,5 @@
 import Icon from "../Icon/Icon";
-import '../Card/Card.css';
+import '../card/card.css';
 import {memo} from 'react';
 function Card({onPlay, player, index, gameEnd}){
     let icon = <Icon/>
